@@ -23,7 +23,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/VgCDAzcKvsR6lk5V9L/giphy.gif" width="28"/> Who Am I
+## <img src="./assets/icons/waving-hand.png" width="28" alt=""/> Who Am I
 
 <table>
 <tr>
@@ -48,7 +48,7 @@ const mohammadRaees = {
 </td>
 <td width="42%" valign="top">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Developer" width="100%"/>
+<img src="./assets/icons/man-technologist.png" alt="Developer" width="100%"/>
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ const mohammadRaees = {
 
 ---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOMBIjdSO/giphy.gif" width="28"/> Tech Arsenal
+## <img src="./assets/icons/gear.png" width="28" alt=""/> Tech Arsenal
 
 ### Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)

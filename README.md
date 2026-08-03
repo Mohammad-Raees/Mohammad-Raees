@@ -112,23 +112,23 @@ const mohammadRaees = {
 
 ## <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="28"/> GitHub Intelligence
 
+> Cards below are **self-hosted** in this repo (refreshed by GitHub Actions). Public Vercel/Heroku stats APIs are currently unreliable.
+
 <div align="center">
 
-<a href="https://github.com/Mohammad-Raees">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Mohammad-Raees&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
-</a>
+<img src="./assets/github-stats.svg" height="170" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<a href="https://github.com/Mohammad-Raees">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Raees&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages"/>
-</a>
+<img src="./assets/top-langs.svg" height="170" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammad-Raees&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="560"/>
+<img src="./assets/trophies.svg" width="680" alt="Profile Highlights"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Mohammad-Raees&theme=radical&no-frame=true&no-bg=false&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
+![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMohammad-Raees&query=%24.public_repos&label=Public%20Repos&color=6366f1&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/Mohammad-Raees?style=for-the-badge&color=0ea5e9)
+![Stars](https://img.shields.io/github/stars/Mohammad-Raees?affiliations=OWNER&style=for-the-badge&color=f59e0b)
 
 </div>
 
@@ -238,9 +238,9 @@ const mohammadRaees = {
 
 <br/>
 
-<a href="https://leetcode.com/u/Mohammad-Raees/">
-  <img src="https://leetcard.jacoblin.cool/Mohammad-Raees?theme=dark&font=Karma&ext=heatmap" alt="LeetCode Stats" width="480"/>
-</a>
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Mohammad--Raees-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mohammad-Raees/)
+[![CodeChef 1341](https://img.shields.io/badge/CodeChef-1341%20(1★)-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/mohd_raees)
+[![Codeforces](https://img.shields.io/badge/Codeforces-Mohd__Raees-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Mohd_Raees)
 
 </div>
 
@@ -281,7 +281,7 @@ const mohammadRaees = {
 
 <br/>
 
-<img src="https://quote-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+<img src="./assets/quote.svg" width="680" alt="Quote"/>
 
 <br/>
 

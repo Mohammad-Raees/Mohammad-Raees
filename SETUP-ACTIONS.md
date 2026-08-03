@@ -73,3 +73,46 @@ jobs:
 Create a classic PAT that includes **workflow**, then ask the assistant to push the workflow files.
 
 Until the 3D workflow runs once, the 3D image may show broken — stats/trophies/streak still work immediately.
+
+---
+
+## Generate Profile Stats (stats / languages / quote / highlights)
+
+Public Vercel widgets (`github-readme-stats`, trophies, quotes) are currently down.
+Your profile now uses **self-hosted SVGs** in `assets/`.
+
+To auto-refresh them daily, create `.github/workflows/generate-stats.yml`:
+
+```yaml
+name: Generate Profile Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate SVG cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Mohammad-Raees
+        run: python scripts/generate_stats.py
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --staged --quiet || (git commit -m "chore: refresh profile stats SVGs" && git push)
+```
+
+Also ensure **Settings → Actions → Workflow permissions → Read and write**.
